@@ -2,14 +2,37 @@
   margin: 0;
   padding: 0;
 }
-.conteudo_menu{
+
+.menu{
   width: 100%;
   height: 10vh;
   background-color: orange;
-}
-.conteudo_menu img{
   
 }
-.conteudo_menu ion-button{
+.conteudo_menu{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.conteudo_menu img{
+  width: 10vh;
+  padding: 1vh;
+  margin-left: 3vh;
+ 
+
+}
+
+.menu_link{
+  padding: 2vh 3vh 2vh 0vh;
+
+}
+.menu_link a{
+  color: white;
+  font-size: xx-large;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  text-decoration: none;
+  
+
 
 }

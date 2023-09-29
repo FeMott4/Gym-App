@@ -1,25 +1,30 @@
 <ion-content [fullscreen]="true">
   <ion-header>
-    <ion-row>
-      <ion-col class="conteudo_menu">
-        <img src="" alt="logo">
-      </ion-col>
-      <ion-col class="conteudo_menu">
-       <ion-button color="none" routerLink="/home">Home</ion-button>
-       <ion-button color="none" routerLink="/loja">Loja</ion-button>
+    <ion-row class="menu">
+      <ion-col class="conteudo_menu" size-lg="12" size-md="12" size-sm="12">
+        <img src="../../assets/icon/fitness.png" alt="logo">
+
+        <div class="menu_link" >
+          <a routerLink="/home">Home</a>
+          <a routerLink="/loja">Loja</a>
+        </div>
       </ion-col>
     </ion-row>
-  </ion-header> 
+  </ion-header>
 
   <!-- corpo -->
-  <ion-row class="f" size="12">
+  <ion-row class="container" size="12">
     <ion-col size-lg="6" size-md="12" size-sm="12">
+      <div class="text"></div>
 
     </ion-col>
 
     <ion-col size-lg="6" size-md="12" size-sm="12">
+      <div class="imagem">
+        <img src="" alt="Imagem">
+      </div>
 
     </ion-col>
   </ion-row>
-  
+
 </ion-content>
