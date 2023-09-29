@@ -1,38 +1,60 @@
+// Declaração de cores 
+
+
 *{
   margin: 0;
   padding: 0;
 }
 
+
+// Css menu
 .menu{
   width: 100%;
-  height: 10vh;
-  background-color: orange;
-  
+  height: 7vh;
+  background-color:#E54818;
 }
 .conteudo_menu{
   display: flex;
   justify-content: space-between;
-  
 }
 .conteudo_menu img{
-  width: 10vh;
+  width: 7vh;
   padding: 1vh;
   margin-left: 3vh;
- 
-
 }
-
 .menu_link{
   padding: 2vh 3vh 2vh 0vh;
-
 }
 .menu_link a{
   color: white;
-  font-size: xx-large;
-  margin-left: 2vh;
+  font-size: x-large;
+  margin-left: 1vh;
   margin-right: 2vh;
   text-decoration: none;
-  
+}
 
+// ----Css conteudo----
 
+//Css container
+.container{
+  background-color:red;
+  display: flex;
+  padding: 2vh 0 5vh 0;
+} 
+
+// Css text
+.text{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10vh;
+}
+.conteudo_text{
+
+  width: 60vh;
+}
+// Css imagem
+.imagem{
+  display: flex;
+  justify-content: center;
 }
