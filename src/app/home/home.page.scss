@@ -1,38 +1,153 @@
+// Declaração de cores 
+:root{
+  --menu:#FF6702;
+  --fundo-bannertop:#FF7F00;
+}
+
 *{
   margin: 0;
   padding: 0;
 }
 
+// Cor de fundo site
+.background{
+ --ion-background-color:white;
+}
+
+
+// Css menu
 .menu{
   width: 100%;
-  height: 10vh;
-  background-color: orange;
-  
+  height: 7vh;
+  background-color:#FF6702;
 }
 .conteudo_menu{
   display: flex;
   justify-content: space-between;
-  
 }
 .conteudo_menu img{
-  width: 10vh;
+  width: 7vh;
+  height: 7vh;
   padding: 1vh;
   margin-left: 3vh;
- 
-
 }
-
 .menu_link{
   padding: 2vh 3vh 2vh 0vh;
-
 }
 .menu_link a{
   color: white;
-  font-size: xx-large;
-  margin-left: 2vh;
+  font-size: x-large;
+  margin-left: 1vh;
   margin-right: 2vh;
   text-decoration: none;
-  
+}
 
+// ----Css conteudo----
 
+//Css container
+.container{
+  background-color:#FF7F00;
+  display: flex;
+  padding: 2vh 0 5vh 0;
+} 
+
+// Css text
+.text{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10vh;
+}
+.conteudo_text{
+  width: 90%;
+}
+// Css imagem
+.imagem{
+  display: flex;
+  justify-content: center;
+}
+.imagem img{
+  max-width: 90%;
+
+}
+
+// Css sobre nos
+.container_title{
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  text-align: center;
+  color:#FF8E00;
+}
+.container_sobre{
+  margin-top: 2vh;
+  margin-bottom: 15vh;
+}
+.img-local{
+  display: flex;
+  justify-content: center;
+}
+// css imagem
+.img-local img{
+  max-width: 80%;
+  border: 0.5vh solid #FF551B;
+  border-radius: 2vh ;
+}
+// CSS texto sobre nos
+.text-local{
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+.container_text{
+  margin-top: 5vh;
+  align-items: center;
+  width: 80%;
+}
+
+// css tabela de valores
+.container_valores{
+  color: black;
+}
+
+// css tabela
+.conteudo_table{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 15vh;
+}
+.conteudo_table table{
+  color: white;
+  max-width: 100%; 
+  min-width: 100%;
+  text-align: center;
+
+  border: 0.5vh solid #FF551B;
+  border-radius: 2vh;
+}
+
+.conteudo_table th,td{
+  border: 0.5vh solid #FF551B;
+  padding: 1vh;
+}
+.container_valores th{
+  background-color: #FF6702;
+}
+.container_valores td{
+  background-color: #FF8E00;
+}
+
+// rodapé
+ion-footer{
+  background-color:#FF6702;
+  height: 40vh;
+  width: 100%;
+  padding: 3vh;
+}
+// icone rede social
+ion-footer .redesocial svg{
+  color: white;
+  width: 6vh;
+  flex-direction: column;
+  text-align: center;
 }
