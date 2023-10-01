@@ -1,25 +1,36 @@
 // Declaração de cores 
+<<<<<<< HEAD
 :root{
   --menu:#FF6702;
   --fundo-bannertop:#FF7F00;
 }
+=======
+
+>>>>>>> 37341059e96b2f96bec8eafd4bed50c6bb292447
 
 *{
   margin: 0;
   padding: 0;
 }
 
+<<<<<<< HEAD
 // Cor de fundo site
 .background{
  --ion-background-color:white;
 }
 
+=======
+>>>>>>> 37341059e96b2f96bec8eafd4bed50c6bb292447
 
 // Css menu
 .menu{
   width: 100%;
   height: 7vh;
+<<<<<<< HEAD
   background-color:#FF6702;
+=======
+  background-color:#E54818;
+>>>>>>> 37341059e96b2f96bec8eafd4bed50c6bb292447
 }
 .conteudo_menu{
   display: flex;
@@ -27,7 +38,10 @@
 }
 .conteudo_menu img{
   width: 7vh;
+<<<<<<< HEAD
   height: 7vh;
+=======
+>>>>>>> 37341059e96b2f96bec8eafd4bed50c6bb292447
   padding: 1vh;
   margin-left: 3vh;
 }
@@ -46,7 +60,11 @@
 
 //Css container
 .container{
+<<<<<<< HEAD
   background-color:#FF7F00;
+=======
+  background-color:red;
+>>>>>>> 37341059e96b2f96bec8eafd4bed50c6bb292447
   display: flex;
   padding: 2vh 0 5vh 0;
 } 
@@ -59,12 +77,18 @@
   margin-top: 10vh;
 }
 .conteudo_text{
+<<<<<<< HEAD
   width: 90%;
+=======
+
+  width: 60vh;
+>>>>>>> 37341059e96b2f96bec8eafd4bed50c6bb292447
 }
 // Css imagem
 .imagem{
   display: flex;
   justify-content: center;
+<<<<<<< HEAD
 }
 .imagem img{
   max-width: 90%;
@@ -150,4 +174,6 @@ ion-footer .redesocial svg{
   width: 6vh;
   flex-direction: column;
   text-align: center;
+=======
+>>>>>>> 37341059e96b2f96bec8eafd4bed50c6bb292447
 }
