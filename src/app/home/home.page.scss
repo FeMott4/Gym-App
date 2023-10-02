@@ -153,17 +153,42 @@
 }
 
 // rodapé
+
 ion-footer{
   background-color:#FF6702;
-  height: 40vh;
+  min-height: 30vh;
+  max-height: 40vh;
   width: 100%;
-  padding: 3vh;
+  padding: 5vh;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+
+}
+ion-footer .contato{
+  margin-bottom: 3vh;
+  text-align: center;
 }
 // icone rede social
+ion-footer .redesocial{
+  display: flex;
+  justify-content: center;
+}
 ion-footer .redesocial svg{
   color: white;
-  width: 6vh;
-  flex-direction: column;
-  text-align: center;
+  width: 8vh;
+  margin-bottom: 3vh;
 
+}
+ion-footer .redesocial a{
+  padding: 0 3vh 0 0;
+  margin-bottom: 3vh;
+}
+ion-footer .endereco{
+  display: flex;
+  justify-content: center;
+}
+ion-footer .endereco svg{
+  color: white;
 }
